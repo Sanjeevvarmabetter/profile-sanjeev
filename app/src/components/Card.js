@@ -1,9 +1,10 @@
 import React from "react";
+import '../App.css';
 
 function Card() {
     return (
-        <div classname="card">
-            <div classname="text-container">
+        <div className="card">
+            <div className="text-container">
         <h2>Hi, I'm Sanjeev Varma</h2>
         <h3>An Enthusiastic Blockchain Developer from India 🇮🇳</h3>
         <h4>🌐✨Exploring the Blockchain Universe </h4>

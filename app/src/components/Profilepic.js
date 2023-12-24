@@ -1,10 +1,11 @@
 import { getDefaultNormalizer } from "@testing-library/react";
 import React from "react";
+import '../App.css';
 
 function Profilepic() {
     return (
-        <div classname="profile-picture-contaier">
-            <img src="heropic.jpeg" alt="Sanjeev Varma" classname="profile-picture" />
+        <div className="profile-picture-container">
+            <img src="heropic.jpeg" alt="Sanjeev Varma" className="profile-picture" />
 
         </div>
     );

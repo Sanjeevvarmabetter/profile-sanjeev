@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "./components/Header";
 // import Profilepic from "./components/Profilepic";
-import Card from "./components/Card";
+// import Card from "./components/Card";
+import ProfileCardContainer from "./components/ProfileCardContainer";
 import './App.css';
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
       <Header />
       {/* <Profilepic /> */}
-      <Card />
+      <ProfileCardContainer />
+      {/* <Card /> */}
     </div>
   );
 }
