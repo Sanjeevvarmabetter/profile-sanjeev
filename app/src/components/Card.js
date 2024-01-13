@@ -5,7 +5,9 @@ function Card() {
     return (
         <div className="card">
             <div className="text-container">
-        <h2>Hi, I'm Sanjeev Varma</h2>
+        <h2>Hi, I'm Sanjeev Varma
+            <span className="hand">🤚</span>
+        </h2>
         <h3>A Blockchain Developer from India 🇮🇳</h3>
         <h4>🌐✨Exploring the Blockchain Universe </h4>
         <h4>📈 Financial Markets Enthusiast </h4>
