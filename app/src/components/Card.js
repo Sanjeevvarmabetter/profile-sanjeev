@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub, faEnvelope } from "@fortawesome/free-brands-svg-icons";
 import '../App.css';
 
 function Card() {
@@ -13,6 +15,24 @@ function Card() {
         <h4>📈 Financial Markets Enthusiast </h4>
         <h4>🌐 Love Decentralization </h4>
         <h4>🔐 CyberSecurity Evangelist </h4>
+
+
+        {/*social media handles*/}
+
+        <div className="socialmedia-handles">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href="https://github.com/Sanjeevvarmabetter" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a href="mailto:sanjeevvarmacode@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faEnvelope} />
+            </a>
+
+        </div>
+
+
             </div>
         </div>
     );
